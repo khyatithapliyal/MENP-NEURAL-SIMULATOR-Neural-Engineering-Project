@@ -1,0 +1,44 @@
+{
+  "extraction_date": "2025-07-21T20:05:59.885379",
+  "n_sessions": 5,
+  "n_neurons": 3475,
+  "cell_types": [
+    "sst_interneuron",
+    "pv_interneuron",
+    "pyramidal"
+  ],
+  "neurons_per_type": {
+    "sst_interneuron": 1639,
+    "pv_interneuron": 444,
+    "pyramidal": 1392
+  },
+  "population_stats_summary": {
+    "sst_interneuron": {
+      "mean_firing_rate_hz": 8.412041283433764,
+      "cv_isi": 4.480013274841755
+    },
+    "pv_interneuron": {
+      "mean_firing_rate_hz": 8.111271704497888,
+      "cv_isi": 3.3446847469085035
+    },
+    "pyramidal": {
+      "mean_firing_rate_hz": 8.093740121750567,
+      "cv_isi": 3.219417564355717
+    }
+  },
+  "data_files": [
+    "spike_trains.npz",
+    "cell_metadata.csv",
+    "firing_statistics.csv",
+    "population_statistics.json",
+    "isi_distributions.npz",
+    "*_isi_histogram.json"
+  ],
+  "visual_cortex_areas": [
+    "VISp",
+    "VISl",
+    "VISrl",
+    "VISpm",
+    "VISal"
+  ]
+}
