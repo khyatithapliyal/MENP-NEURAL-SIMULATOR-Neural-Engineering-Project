@@ -4,23 +4,6 @@
 
 A computational framework for modeling and optimizing magneto-electric nanoparticle (MENP) based neural stimulation with integrated safety validation and machine learning optimization.
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![License: Research Use Only](https://img.shields.io/badge/License-RUO-yellow.svg)](LICENSE)
-[![NYU Tandon](https://img.shields.io/badge/NYU-Tandon-purple.svg)](https://engineering.nyu.edu/)
-
-## Table of Contents
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Output Files](#output-files)
-- [Documentation](#documentation)
-- [Results](#results)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
-- [Citation](#citation)
 
 ## Overview
 
@@ -370,5 +353,6 @@ ipywidgets>=7.6.0
 h5py>=3.1.0
 sympy>=1.9
 ```
+
 
 
