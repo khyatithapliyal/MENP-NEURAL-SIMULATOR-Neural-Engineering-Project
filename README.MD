@@ -126,7 +126,6 @@ MENP-NEURAL-SIMULATOR-Neural-Engineering-Project/
         ├── thermal_mc.json                  # Monte Carlo results
         ├── MENP_Summary.html               # Human-readable report
         └── manifest.json                    # SHA256 verification
-
 Scope: RUO. This is not a medical device. No clinical claims are made.
 
 # 2. Methods
@@ -207,4 +206,5 @@ Research‑use only (RUO). Not for medical decision‑making.
 ---
 
 Contact: Add contact info here.  |  License: Add your license here.
+
 
