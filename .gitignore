@@ -1,0 +1,1 @@
+# OS/IDE\n.DS_Store\nThumbs.db\n.vscode/\n.ipynb_checkpoints/\n__pycache__/\n*.pyc\n.env\n.venv/\nallen_env/\n# Data/cache\nDATA/*.npz\nDATA/*.npy\nMENP_Runs/*/raw*/\nMENP_Runs/*/*.tmp\n# Large or local installers\nGit-*.exe\n# Notebook autosaves\n*.bak.ipynb\n# Build artifacts\n*.egg-info/\n.dist/\nbuild/\ndist/\n
