@@ -9,8 +9,6 @@ A computational framework for modeling and optimizing magneto-electric nanoparti
 
 This simulator addresses the critical challenge in MENP neuromodulation: the 37.7% field reduction in anisotropic brain tissue that has prevented successful clinical translation. By integrating tensor-aware physics modeling, real neural data from the Allen Brain Atlas, and FDA adverse event reports, this framework provides the first comprehensive platform for MENP protocol optimization.
 
-**Principal Investigator:** Prof. Shy Shoham, Tech4Health Institute, NYU  
-**Author:** Khyati Thapliyal, MS Biomedical Engineering, NYU Tandon School of Engineering
 
 ### Core Discovery
 Our tensor-aware field calculations reveal that brain tissue anisotropy reduces effective field strength by 37.7% at therapeutic distances (2-5mm), quantitatively explaining why previous MENP studies failed when transitioning from in vitro to in vivo applications.
@@ -353,6 +351,7 @@ ipywidgets>=7.6.0
 h5py>=3.1.0
 sympy>=1.9
 ```
+
 
 
 
