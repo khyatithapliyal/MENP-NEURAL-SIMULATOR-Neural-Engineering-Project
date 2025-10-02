@@ -1,4 +1,4 @@
-# MENP-NEURAL-SIMULATOR
+
 
 ## Magnetoelectric Nanoparticle Neural Stimulation Framework
 
@@ -55,7 +55,7 @@ jupyter notebook 01_physics_engine_7_9_10_39pm.ipynb
 
 ### Important Note: AllenSDK Installation
 
-⚠️ **AllenSDK requires a separate virtual environment with Python 3.8**
+ **AllenSDK requires a separate virtual environment with Python 3.8**
 
 If you need to work with raw Allen Brain Atlas data (optional - pre-processed data is included):
 
@@ -87,11 +87,11 @@ The repository includes pre-processed Allen Brain Atlas data (`DATA/allen_bootst
 ```
 MENP-NEURAL-SIMULATOR-Neural-Engineering-Project/
 │
-├── 📓 01_physics_engine_7_9_10_39pm.ipynb    # Main computational notebook (92 cells)
-├── 🔧 run_menp.py                            # CLI for batch processing
-├── 📋 SOP_RUN.md                             # Standard operating procedures
-├── 📦 requirements.txt                        # Python dependencies
-├── 📖 README.md                               # This file
+├──  01_physics_engine_7_9_10_39pm.ipynb    # Main computational notebook (92 cells)
+├──  run_menp.py                            # CLI for batch processing
+├──  SOP_RUN.md                             # Standard operating procedures
+├──  requirements.txt                        # Python dependencies
+├──  README.md                               # This file
 │
 ├── src/                                       # Source code modules
 │   ├── physics.py                            # Core magnetoelectric physics
@@ -305,17 +305,6 @@ responders_frac_ci_low, responders_frac_ci_high
 ### Standard Operating Procedures
 See `SOP_RUN.md` for detailed execution procedures and troubleshooting.
 
-### Notebook Cell Documentation
-Each cell contains inline documentation. Key cells:
-- Cell 12: Tensor-aware field comparison
-- Cell 25: Ultra-sensitive neural model
-- Cell 27: Safety analyzer with MAUDE integration
-- Cell 30: ML framework training
-- Cell 33: Experimental validation
-
-### API Documentation
-Full API documentation available in source files with docstrings following NumPy style.
-
 ## Results
 
 ### Key Performance Metrics
@@ -331,11 +320,11 @@ Full API documentation available in source files with docstrings following NumPy
 
 ### Validation Status
 
-- ✅ Physics model validated against DTI data
-- ✅ Neural responses match Allen Brain Atlas
-- ✅ Safety thresholds verified with MAUDE
-- ⚠️ ML experimental validation R² = 0.727 (improvement needed)
-- ⚠️ Field enhancement correlation needs refinement
+- Physics model validated against DTI data
+- Neural responses match Allen Brain Atlas
+- Safety thresholds verified with MAUDE
+- ML experimental validation R² = 0.727 (improvement needed)
+- Field enhancement correlation needs refinement
 
 ## Dependencies
 
@@ -351,6 +340,7 @@ ipywidgets>=7.6.0
 h5py>=3.1.0
 sympy>=1.9
 ```
+
 
 
 
